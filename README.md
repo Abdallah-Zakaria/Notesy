@@ -31,5 +31,5 @@ some test for the app
 
 #### UML
 
-![UML](imgUML-class01.jpg)
+![UML](img/UML-class01.jpg)
 
