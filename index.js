@@ -1,11 +1,11 @@
 #!/usr/bin/env node
-"use strict";
+'use strict';
 
-const input = require("./lib/input.js")
-const handler = require("./lib/notes.js")
+const Input = require('./lib/input.js')
+const Handler = require('./lib/notes.js')
 
-const newInput  = new input()
-const newHandler = new handler()
+const newInput = new Input()
+const newHandler = new Handler()
 
 newHandler.execute(newInput)
 
