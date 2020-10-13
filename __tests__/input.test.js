@@ -7,8 +7,8 @@ minimist.mockImplementation(()=>{
   return {add: 'note',}
 });
 
-describe('InputClass file', ()=>{
-  describe('Check Action method', ()=>{
+xdescribe('InputClass file', ()=>{
+  xdescribe('Check Action method', ()=>{
     it('Test to check if the action is written', ()=>{
       const options = new Input;
       expect(options.checkAction()).toBeUndefined();
@@ -23,7 +23,7 @@ describe('InputClass file', ()=>{
       expect(options.checkAction(args)).toBeTruthy();
     });
   });
-  describe('Check the Payload note', () =>{
+  xdescribe('Check the Payload note', () =>{
     it('Test check if the note is not defiend ', ()=>{
       const options = new Input;
       expect(options.checkPayload()).toBeUndefined();
@@ -34,7 +34,7 @@ describe('InputClass file', ()=>{
       expect(options.checkPayload(args)).toEqual(args.add);
     });
   });
-  describe('valid the arguments', () =>{
+  xdescribe('valid the arguments', () =>{
     it('Test to check if the argument was pass in correct way', () =>{
       const options = new Input;
       expect(options.valid()).toBeTruthy();

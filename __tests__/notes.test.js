@@ -3,7 +3,7 @@
 const Handler = require('../lib/notes.js');
 jest.spyOn(global.console,'log');
 
-describe('NoteClass file', () =>{
+xdescribe('NoteClass file', () =>{
   it('Note is empty', () =>{
     const newHandler = new Handler();
     newHandler.execute();
