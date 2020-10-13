@@ -20,6 +20,5 @@ mongoose.connect(MONGODB_URI, {
 
 const newInput = new Input()
 const newHandler = new Handler()
-
 newHandler.execute(newInput)
 
