@@ -3,13 +3,13 @@
 ### Author: Abdallah Zakaria
 
 ### Setup
-- ` node index.js --add "<note>" --category "<type>" `
+- ` node index.js --add {note} --category {type} `
 
 - ` node index.js --list `
 
-- ` node index.js --list "<type>" `
+- ` node index.js --list {type} `
 
-- ` node index.js --delete <ID>`
+- ` node index.js --delete {ID}`
 
 #### Run the application 
 - Open your Ubuntu terminal
