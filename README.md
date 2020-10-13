@@ -1,33 +1,36 @@
-# LAB - Class 01
-
 ## Project: Notesy
 
 ### Author: Abdallah Zakaria
 
 ### Setup
-- minimist package
+- ` node index.js --add "<note>" --category "<type>" `
+
+- ` node index.js --list `
+
+- ` node index.js --list "<type>" `
+
+- ` node index.js --delete <ID>`
 
 #### Run the application 
 - Open your Ubuntu terminal
 
 - Clone the repo `https://github.com/Abdallah-Zakaria/notes.git`
 
-- Run this command `node index.js --method "write your note"` 
+- Use the above commands.
 
 #### How to use the library 
-- input library : instance a new object
-- notes library : instance a new object and add the input object as a arguments with it
+- input library 
+- notes library 
+- This application was build with Node.js and it includes:
+  - minimist package
+  - dotenv package
+  - jest package
+  - mongoose package
 
 #### Tests
+- Run jest test `npm test`
 
-- To test the app you must open the terminal and run this command `node index.js --method "write your note"` 
-method as `--add or -a`
-
-- You must write a note and write method or the app will send you an error 
-some test for the app 
- - right test `node --add "meeting at 1:00 pm on sunday"`
- - wrong test `node --add ""`
-
+- Run lint test `npm run lint`
 
 #### UML
 
