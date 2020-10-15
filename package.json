@@ -1,0 +1,35 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint '**/*.js'",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdallah-Zakaria/notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdallah-Zakaria/notes/issues"
+  },
+  "homepage": "https://github.com/Abdallah-Zakaria/notes#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
+    "eslint": "^7.11.0",
+    "jest": "^26.5.3"
+  }
+}
